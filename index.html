@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bucket List — The World's Most Extraordinary Objects</title>
+  <meta name="description" content="Curated luxury marketplace for watches, bags, jewelry, hypercars, yachts, and estates. Uncompromising standards." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <header>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="assets/logo.png" alt="Bucket List" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+          <span class="nav-logo-text" style="display:none;">BUCKET LIST</span>
+          <span class="nav-logo-text" id="logo-text-main">BUCKET LIST</span>
+        </a>
+      </div>
+      <ul class="nav-links" role="list">
+        <li><a href="watches.html">Watches</a></li>
+        <li><a href="bags.html">Bags</a></li>
+        <li><a href="jewelry.html">Jewelry</a></li>
+        <li><a href="hypercars.html">Hypercars</a></li>
+        <li><a href="yachts.html">Yachts</a></li>
+        <li><a href="estates.html">Estates</a></li>
+        <li><a href="#new-arrivals">New Arrivals</a></li>
+        <li><a href="#concierge">Concierge</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="#concierge" class="btn-enquire">Enquire</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============================================
+         HERO SECTION
+         ============================================ -->
+    <section class="hero" aria-label="Hero">
+      <div class="hero-bg">
+        <img
+          src="assets/cars.jpg"
+          alt="Luxury hypercar"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+        />
+        <div class="hero-bg-fallback"></div>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="reveal">The World's Most Extraordinary Objects</h1>
+        <p class="reveal">Curated luxury. Uncompromising standards.</p>
+        <div class="hero-actions reveal">
+          <a href="#categories" class="btn-primary">Explore Collections</a>
+          <a href="#concierge" class="btn-secondary">Private Enquiry</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CATEGORY HEADER
+         ============================================ -->
+    <section class="category-header" id="categories" aria-label="Category overview">
+      <h2 class="reveal">Six Worlds of Extraordinary</h2>
+      <div class="header-stats reveal">
+        <div class="stat-item"><span>3,200+</span> Active Listings</div>
+        <div class="stat-item"><span>68</span> Countries</div>
+        <div class="stat-item"><span>$12B+</span> Total Value</div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CATEGORY GRID
+         ============================================ -->
+    <section class="category-grid-section" aria-label="Browse categories">
+      <div class="category-grid">
+
+        <a href="watches.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/watches.jpg"
+            alt="Luxury watches"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Watches</h3>
+            <span>480+ Listings</span>
+          </div>
+        </a>
+
+        <a href="bags.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/bags.jpg"
+            alt="Luxury bags"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Bags</h3>
+            <span>620+ Listings</span>
+          </div>
+        </a>
+
+        <a href="jewelry.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/jewelry.jpg"
+            alt="Fine jewelry"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Jewelry</h3>
+            <span>390+ Listings</span>
+          </div>
+        </a>
+
+        <a href="hypercars.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/cars.jpg"
+            alt="Hypercars"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Hypercars</h3>
+            <span>210+ Listings</span>
+          </div>
+        </a>
+
+        <a href="yachts.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/yachts.jpg"
+            alt="Superyachts"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Yachts</h3>
+            <span>185+ Listings</span>
+          </div>
+        </a>
+
+        <a href="estates.html" class="category-card reveal">
+          <img
+            class="category-card-img"
+            src="assets/estates.jpg"
+            alt="Luxury estates"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='block';"
+          />
+          <div class="category-card-fallback" style="display:none;"></div>
+          <div class="category-card-overlay"></div>
+          <div class="category-card-info">
+            <h3>Estates</h3>
+            <span>315+ Listings</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- ============================================
+         BRAND MARQUEE
+         ============================================ -->
+    <section class="brand-marquee" aria-label="Featured brands">
+      <div class="marquee-track" aria-hidden="true">
+        <!-- Set 1 -->
+        <span class="marquee-item">Patek Philippe</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Rolex</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Richard Mille</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Hermès</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Chanel</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Louis Vuitton</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Bugatti</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Pagani</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Koenigsegg</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Feadship</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Lurssen</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Benetti</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Sotheby's</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Christie's</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Knight Frank</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <!-- Set 2 (duplicate for seamless loop) -->
+        <span class="marquee-item">Patek Philippe</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Rolex</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Richard Mille</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Hermès</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Chanel</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Louis Vuitton</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Bugatti</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Pagani</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Koenigsegg</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Feadship</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Lurssen</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Benetti</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Sotheby's</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Christie's</span>
+        <span class="marquee-item marquee-separator">·</span>
+        <span class="marquee-item">Knight Frank</span>
+        <span class="marquee-item marquee-separator">·</span>
+      </div>
+    </section>
+
+    <!-- ============================================
+         FEATURED LISTINGS
+         ============================================ -->
+    <section class="featured-listings" id="new-arrivals" aria-label="Featured listings">
+      <div class="featured-listings-inner">
+        <h2 class="reveal">Featured Listings</h2>
+
+        <!-- Watches Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Watches</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous watches" onclick="scrollRow('watches-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next watches" onclick="scrollRow('watches-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="watches-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/watches.jpg" alt="Patek Philippe Nautilus" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Patek Philippe Nautilus 5711</h4>
+                  <div class="listing-price">AED 850,000</div>
+                  <div class="listing-location">Geneva</div>
+                  <a href="watches.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/watches.jpg" alt="Rolex Daytona" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Rolex Daytona Ref 116500</h4>
+                  <div class="listing-price">AED 145,000</div>
+                  <div class="listing-location">Dubai</div>
+                  <a href="watches.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/watches.jpg" alt="Richard Mille RM 011" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Richard Mille RM 011</h4>
+                  <div class="listing-price">AED 620,000</div>
+                  <div class="listing-location">London</div>
+                  <a href="watches.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bags Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Bags</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous bags" onclick="scrollRow('bags-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next bags" onclick="scrollRow('bags-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="bags-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/bags.jpg" alt="Hermès Birkin" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Hermès Birkin 25 Crocodile</h4>
+                  <div class="listing-price">AED 380,000</div>
+                  <div class="listing-location">Paris</div>
+                  <a href="bags.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/bags.jpg" alt="Chanel Classic Flap" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Chanel Classic Flap Jumbo</h4>
+                  <div class="listing-price">AED 52,000</div>
+                  <div class="listing-location">Dubai</div>
+                  <a href="bags.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/bags.jpg" alt="Hermès Kelly" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Hermès Kelly 28</h4>
+                  <div class="listing-price">AED 210,000</div>
+                  <div class="listing-location">Monaco</div>
+                  <a href="bags.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Jewelry Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Jewelry</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous jewelry" onclick="scrollRow('jewelry-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next jewelry" onclick="scrollRow('jewelry-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="jewelry-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/jewelry.jpg" alt="Graff Diamond Necklace" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Graff Diamond Necklace 18ct</h4>
+                  <div class="listing-price">AED 1,200,000</div>
+                  <div class="listing-location">Geneva</div>
+                  <a href="jewelry.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/jewelry.jpg" alt="Cartier Panthère Ring" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Cartier Panthère Ring</h4>
+                  <div class="listing-price">AED 85,000</div>
+                  <div class="listing-location">Paris</div>
+                  <a href="jewelry.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/jewelry.jpg" alt="Van Cleef Alhambra" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Van Cleef Alhambra Bracelet</h4>
+                  <div class="listing-price">AED 65,000</div>
+                  <div class="listing-location">Dubai</div>
+                  <a href="jewelry.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hypercars Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Hypercars</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous hypercars" onclick="scrollRow('hypercars-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next hypercars" onclick="scrollRow('hypercars-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="hypercars-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/cars.jpg" alt="Bugatti Chiron" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Bugatti Chiron Super Sport</h4>
+                  <div class="listing-price">AED 22,000,000</div>
+                  <div class="listing-location">Monaco</div>
+                  <a href="hypercars.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/cars.jpg" alt="Pagani Huayra R" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Pagani Huayra R</h4>
+                  <div class="listing-price">AED 28,000,000</div>
+                  <div class="listing-location">Italy</div>
+                  <a href="hypercars.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/cars.jpg" alt="Koenigsegg Jesko" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Koenigsegg Jesko</h4>
+                  <div class="listing-price">AED 18,500,000</div>
+                  <div class="listing-location">Sweden</div>
+                  <a href="hypercars.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Yachts Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Yachts</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous yachts" onclick="scrollRow('yachts-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next yachts" onclick="scrollRow('yachts-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="yachts-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/yachts.jpg" alt="Feadship 85m Superyacht" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Feadship 85m Superyacht</h4>
+                  <div class="listing-price">AED 850,000,000</div>
+                  <div class="listing-location">Monaco</div>
+                  <a href="yachts.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/yachts.jpg" alt="Lurssen 72m" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Lurssen 72m</h4>
+                  <div class="listing-price">AED 420,000,000</div>
+                  <div class="listing-location">Fort Lauderdale</div>
+                  <a href="yachts.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/yachts.jpg" alt="Benetti 60m" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Benetti 60m</h4>
+                  <div class="listing-price">AED 280,000,000</div>
+                  <div class="listing-location">Dubai</div>
+                  <a href="yachts.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <!-- Estates Row -->
+        <div class="listing-row reveal">
+          <div class="listing-row-header">
+            <h3>Estates</h3>
+            <div class="listing-row-controls">
+              <button class="arrow-btn" aria-label="Previous estates" onclick="scrollRow('estates-track', -1)">&#8592;</button>
+              <button class="arrow-btn" aria-label="Next estates" onclick="scrollRow('estates-track', 1)">&#8594;</button>
+            </div>
+          </div>
+          <div class="listing-scroll-container">
+            <div class="listing-track" id="estates-track">
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/estates.jpg" alt="Palm Jumeirah Villa" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Palm Jumeirah Villa 8BR</h4>
+                  <div class="listing-price">AED 95,000,000</div>
+                  <div class="listing-location">Dubai</div>
+                  <a href="estates.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/estates.jpg" alt="Côte d'Azur Estate" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Côte d'Azur Estate</h4>
+                  <div class="listing-price">AED 185,000,000</div>
+                  <div class="listing-location">France</div>
+                  <a href="estates.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+              <article class="listing-card">
+                <div class="listing-card-image">
+                  <img src="assets/estates.jpg" alt="Mayfair Penthouse" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                  <div class="listing-card-image-fallback" style="display:none;"></div>
+                </div>
+                <div class="listing-card-body">
+                  <h4>Mayfair Penthouse</h4>
+                  <div class="listing-price">AED 145,000,000</div>
+                  <div class="listing-location">London</div>
+                  <a href="estates.html" class="btn-view">View Details</a>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================
+         INSTAGRAM SECTION
+         ============================================ -->
+    <section class="instagram-section" aria-label="Instagram feed">
+      <h2 class="reveal">Follow the Extraordinary <span style="font-style:italic;">@bucketlist_ae</span></h2>
+      <div class="instagram-grid reveal">
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #1a1a1a, #2a2a2a);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Patek Philippe Nautilus — Geneva auction, sold for record AED 2.1M</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #222, #333);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Bugatti Chiron Super Sport — Private delivery, Monaco Harbour</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #1c1c1c, #2c2c2c);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Feadship 85m — New listing. Available exclusively through Bucket List</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #252525, #1a1a1a);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Hermès Birkin 25 Niloticus Crocodile — One of three in existence</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #1e1e1e, #2e2e2e);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Palm Jumeirah private villa — Beachfront 8BR. Enquire for details</span>
+          </div>
+        </a>
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener" class="insta-tile">
+          <div class="insta-bg" style="background: linear-gradient(135deg, #202020, #303030);"></div>
+          <div class="insta-overlay">
+            <span class="insta-text">Graff Yellow Diamond Necklace — 80ct, D-Flawless. AED 4.5M</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============================================
+         STATS BAR
+         ============================================ -->
+    <section class="stats-bar" aria-label="Platform statistics">
+      <div class="stat-col reveal">
+        <div class="stat-number">3.2K</div>
+        <div class="stat-label">Active Listings</div>
+      </div>
+      <div class="stat-col reveal">
+        <div class="stat-number">68</div>
+        <div class="stat-label">Countries</div>
+      </div>
+      <div class="stat-col reveal">
+        <div class="stat-number">$12B+</div>
+        <div class="stat-label">Total Value</div>
+      </div>
+      <div class="stat-col reveal">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Verified</div>
+      </div>
+    </section>
+
+    <!-- ============================================
+         CONCIERGE SECTION
+         ============================================ -->
+    <section id="concierge" aria-label="Concierge service">
+      <div class="concierge-section">
+        <div class="concierge-content reveal">
+          <h2>Your Personal Luxury Concierge</h2>
+          <p>Access the world's most extraordinary objects through our dedicated concierge service. From sourcing rare timepieces to facilitating private property transactions, our team operates discreetly at the highest levels of the luxury market.</p>
+          <ul class="concierge-services">
+            <li>Private acquisition &amp; sourcing</li>
+            <li>Authenticated valuations &amp; appraisals</li>
+            <li>White-glove logistics &amp; delivery</li>
+            <li>Portfolio management &amp; advisory</li>
+            <li>Exclusive off-market listings</li>
+            <li>Global network of verified sellers</li>
+          </ul>
+        </div>
+        <div class="concierge-form-wrap reveal">
+          <h3>Begin Your Enquiry</h3>
+          <form class="concierge-form" id="concierge-form" novalidate>
+            <div class="form-group">
+              <label for="full-name">Full Name</label>
+              <input type="text" id="full-name" name="full-name" placeholder="Your full name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            </div>
+            <div class="form-group">
+              <label for="category">Category</label>
+              <select id="category" name="category">
+                <option value="">Select a category</option>
+                <option value="watches">Watches</option>
+                <option value="bags">Bags</option>
+                <option value="jewelry">Jewelry</option>
+                <option value="hypercars">Hypercars</option>
+                <option value="yachts">Yachts</option>
+                <option value="estates">Estates</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="budget">Budget Range</label>
+              <select id="budget" name="budget">
+                <option value="">Select budget range</option>
+                <option value="under-100k">Under AED 100K</option>
+                <option value="100k-1m">AED 100K – 1M</option>
+                <option value="1m-10m">AED 1M – 10M</option>
+                <option value="10m-plus">AED 10M+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're looking for..."></textarea>
+            </div>
+            <button type="submit" class="form-submit">Submit Enquiry</button>
+          </form>
+          <div class="form-success" id="form-success">
+            Thank you. A member of our concierge team will be in touch within 24 hours.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-text">BUCKET LIST</div>
+        <div class="footer-tagline">Curated Luxury. Uncompromising Standards.</div>
+        <p class="footer-about">Bucket List is the world's premier marketplace for extraordinary luxury objects — from rare horological masterpieces to superyachts, hypercars, and private estates. Trusted by collectors, institutions, and connoisseurs across 68 countries.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="watches.html">Watches</a></li>
+          <li><a href="bags.html">Bags</a></li>
+          <li><a href="jewelry.html">Jewelry</a></li>
+          <li><a href="hypercars.html">Hypercars</a></li>
+          <li><a href="yachts.html">Yachts</a></li>
+          <li><a href="estates.html">Estates</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#concierge">Private Sales</a></li>
+          <li><a href="#concierge">Concierge</a></li>
+          <li><a href="#concierge">Authentication</a></li>
+          <li><a href="#concierge">Valuations</a></li>
+          <li><a href="#concierge">Storage</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#concierge">About</a></li>
+          <li><a href="#concierge">Careers</a></li>
+          <li><a href="#concierge">Press</a></li>
+          <li><a href="#concierge">Contact</a></li>
+          <li><a href="#concierge">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copyright">&copy; 2026 Bucket List. All rights reserved.</span>
+      <div class="footer-socials">
+        <a href="https://instagram.com/bucketlist_ae" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://linkedin.com/company/bucketlist" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com/bucketlist_ae" target="_blank" rel="noopener">Twitter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // ============================================
+    // Nav scroll effect
+    // ============================================
+    const nav = document.getElementById('site-nav');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        nav.classList.add('scrolled');
+      } else {
+        nav.classList.remove('scrolled');
+      }
+    }, { passive: true });
+
+    // Fix duplicate logo text — show only one
+    document.addEventListener('DOMContentLoaded', () => {
+      const logoImg = document.querySelector('.nav-logo img');
+      const logoText = document.getElementById('logo-text-main');
+      if (logoImg) {
+        logoImg.addEventListener('error', () => {
+          logoImg.style.display = 'none';
+        });
+        if (logoImg.complete && logoImg.naturalWidth === 0) {
+          logoImg.style.display = 'none';
+        } else {
+          logoText.style.display = 'none';
+        }
+      }
+    });
+
+    // ============================================
+    // IntersectionObserver reveal
+    // ============================================
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // ============================================
+    // Featured listing row scroll
+    // ============================================
+    function scrollRow(trackId, direction) {
+      const track = document.getElementById(trackId);
+      if (!track) return;
+      const card = track.querySelector('.listing-card');
+      if (!card) return;
+      const cardWidth = card.offsetWidth + 20; // card width + gap
+      const scrollAmount = cardWidth * 3 * direction;
+      const currentTransform = track.style.transform;
+      const currentX = currentTransform
+        ? parseInt(currentTransform.replace('translateX(', '').replace('px)', '')) || 0
+        : 0;
+      const totalWidth = track.scrollWidth;
+      const containerWidth = track.parentElement.offsetWidth;
+      const maxScroll = -(totalWidth - containerWidth);
+      let newX = currentX - scrollAmount;
+      newX = Math.max(maxScroll, Math.min(0, newX));
+      track.style.transform = `translateX(${newX}px)`;
+    }
+
+    // ============================================
+    // Form submit handler
+    // ============================================
+    const conciergeForm = document.getElementById('concierge-form');
+    const formSuccess = document.getElementById('form-success');
+    if (conciergeForm) {
+      conciergeForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        conciergeForm.style.display = 'none';
+        formSuccess.style.display = 'block';
+      });
+    }
+  </script>
+
+</body>
+</html>
